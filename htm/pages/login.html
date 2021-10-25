@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+</head>
+
+<style>
+    h1 {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+
+    }
+
+    div {
+        border-style: solid;
+        border-color: blue;
+        margin: 0 auto;
+        width: 400px;
+        text-align: center;
+    }
+
+    .login {
+        border: solid;
+        border-radius: 10px;
+        padding: 8px 12px;
+        line-height: 1.0;
+        font-size: small;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+        width: 50px;
+
+    }
+</style>
+
+
+<body>
+    <h1>sample site</h1>
+
+    <div>
+
+        <h2>ログイン</h2>
+
+        <form action="pages/login.html" method="POST">
+            <p>
+                <label for="author">
+                    メールアドレス:</label><br>
+                <input type="text" name="txt" size="20">
+            </p>
+            <p>
+                <label for="pass">
+                    パスワード:</label>
+                <input type="password" name="pwd" size="20">
+            </p>
+
+            <p>
+                <input class="login" type="login" name="login" value="ログイン">
+            </p>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
